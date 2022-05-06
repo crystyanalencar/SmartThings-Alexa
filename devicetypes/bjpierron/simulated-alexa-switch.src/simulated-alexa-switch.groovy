@@ -13,7 +13,7 @@
  */
 metadata {
 
-    definition (name: "Simulated Alexa Switch", namespace: "bjpierron", author: "bjpierron") {
+    definition (name: "Simulated Alexa Switch", namespace: "bjpierron", author: "bjpierron", ocfDeviceType: "oic.d.switch") {
         capability "Switch"
         capability "Sensor"
         capability "Actuator"
